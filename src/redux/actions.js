@@ -5,8 +5,8 @@ export const addTask = text => {
     type: 'tasks/addTask',
     payload: {
       id: nanoid(),
-      completed: false,
       text,
+      completed: false,
     },
   };
 };
